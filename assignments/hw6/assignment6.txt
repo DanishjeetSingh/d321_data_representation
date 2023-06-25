@@ -1,0 +1,262 @@
+CREATE DATABASE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 7
+INSERT 0 19
+INSERT 0 13
+INSERT 0 5
+INSERT 0 38
+INSERT 0 67
+Problem 1
+ sid  | sname |  deptname   | salary 
+------+-------+-------------+--------
+1008	"Emma"	"DataScience"	50000
+1009	"Hasan"	"CS"	60000
+1014	"Deepa"	"CS"	50000
+1018	"Arif"	"CS"	50000
+
+(4 rows)
+
+Problem 2
+ sid  | sname  
+------+--------
+1001	"Jean"
+1002	"Vidya"
+1003	"Anna"
+1004	"Qin"
+1006	"Ryan"
+1008	"Emma"
+1009	"Hasan"
+1010	"Linda"
+1012	"Eric"
+1014	"Deepa"
+1015	"Chris"
+1016	"YinYue"
+1018	"Arif"
+(13 rows)
+
+Problem 3
+  major  
+---------
+ Biology
+ CS
+(2 rows)
+
+  major  
+---------
+ Biology
+ CS
+(2 rows)
+
+Problem 4
+ sid | sname 
+-----+-------
+(0 rows)
+
+ sid | sname 
+-----+-------
+(0 rows)
+
+Problem 5
+ sid  | sname 
+------+-------
+ 1008 | Emma
+ 1009 | Hasan
+ 1014 | Deepa
+ 1018 | Arif
+(4 rows)
+
+Problem 6
+  deptname   |  deptname   
+-------------+-------------
+"CS"	"DataScience"
+"DataScience"	"CS"
+"Physics"	"Astronomy"
+"Astronomy"	"Physics"
+(4 rows)
+
+Problem 7
+ sid  | sname 
+------+-------
+ 1005 | Megan
+ 1008 | Emma
+ 1009 | Hasan
+ 1010 | Linda
+ 1012 | Eric
+ 1013 | Lisa
+ 1014 | Deepa
+ 1017 | Latha
+ 1019 | John
+(9 rows)
+
+Problem 8
+  major  
+---------
+ Biology
+(1 row)
+
+Problem 9
+ sid  |  sname   | salary 
+------+----------+--------
+ 1001 | Jean     |  65000
+ 1002 | Vidya    |  45000
+ 1004 | Qin      |  55000
+ 1006 | Ryan     |  55000
+ 1007 | Danielle |  50000
+ 1008 | Emma     |  50000
+ 1009 | Hasan    |  60000
+ 1010 | Linda    |  55000
+ 1011 | Nick     |  70000
+ 1013 | Lisa     |  55000
+ 1014 | Deepa    |  50000
+ 1015 | Chris    |  60000
+ 1016 | YinYue   |  55000
+ 1017 | Latha    |  60000
+ 1018 | Arif     |  50000
+ 1019 | John     |  50000
+(16 rows)
+
+Problem 10
+  deptname   
+-------------
+"CS"
+"DataScience"
+"Mathematics"
+"Physics"
+"Biology"
+(5 rows)
+
+Problem 11
+  deptname   | salary 
+-------------+--------
+"CS"	65000
+"Mathematics"	70000
+"DataScience"	60000
+"Physics"	60000
+"Biology"	50000
+(5 rows)
+
+Problem 12
+ sid  | sname 
+------+-------
+1017	"Latha"
+1013	"Lisa"
+1001	"Jean"
+1005	"Megan"
+(4 rows)
+
+Problem 17
+ sid  
+------
+1002
+1004
+1007
+1008
+1009
+1011
+1014
+1015
+1016
+1018
+1019
+(11 rows)
+
+Problem 18
+CREATE VIEW
+ deptname 
+----------
+ Biology
+(1 row)
+
+Problem 19
+  s1  |  s2  
+------+------
+ 1005 | 1003
+ 1005 | 1012
+ 1003 | 1005
+ 1003 | 1012
+ 1012 | 1005
+ 1012 | 1003
+ 1006 | 1017
+ 1006 | 1010
+ 1006 | 1009
+ 1006 | 1016
+ 1006 | 1013
+ 1017 | 1006
+ 1017 | 1010
+ 1017 | 1009
+ 1017 | 1016
+ 1017 | 1013
+ 1010 | 1006
+ 1010 | 1017
+ 1010 | 1009
+ 1010 | 1016
+ 1010 | 1013
+ 1009 | 1006
+ 1009 | 1017
+ 1009 | 1010
+ 1009 | 1016
+ 1009 | 1013
+ 1016 | 1006
+ 1016 | 1017
+ 1016 | 1010
+ 1016 | 1009
+ 1016 | 1013
+ 1013 | 1006
+ 1013 | 1017
+ 1013 | 1010
+ 1013 | 1009
+ 1013 | 1016
+ 1019 | 1007
+ 1019 | 1008
+ 1019 | 1011
+ 1019 | 1014
+ 1019 | 1001
+ 1007 | 1019
+ 1007 | 1008
+ 1007 | 1011
+ 1007 | 1014
+ 1007 | 1001
+ 1008 | 1019
+ 1008 | 1007
+ 1008 | 1011
+ 1008 | 1014
+ 1008 | 1001
+ 1011 | 1019
+ 1011 | 1007
+ 1011 | 1008
+ 1011 | 1014
+ 1011 | 1001
+ 1014 | 1019
+ 1014 | 1007
+ 1014 | 1008
+ 1014 | 1011
+ 1014 | 1001
+ 1001 | 1019
+ 1001 | 1007
+ 1001 | 1008
+ 1001 | 1011
+ 1001 | 1014
+ 1002 | 1018
+ 1018 | 1002
+ 1004 | 1015
+ 1015 | 1004
+(70 rows)
+
+Problem 20
+ sid  
+------
+1002
+1007
+1008
+1009
+1016
+1018
+
+DROP DATABASE

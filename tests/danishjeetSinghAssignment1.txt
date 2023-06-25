@@ -1,0 +1,92 @@
+ques 2
+
+A = [1,2,6,7,8,3,4,5]
+--> [1,2,3,4,5,6,7,8]
+
+A = []
+--> []
+
+A = [1]
+--> [1]
+
+ques 3
+
+A = [5, 3, 7, 5, 5, 1, 2, 10, 3, 3, 3, 2, 3, 4, 7, 1, 1]
+--> [(1, 3),(2, 2),(3, 5),(4, 1),(5, 3),(7, 2),(10, 1)]
+
+A = []
+--> []
+
+A = [1,1,1,1]
+--> [(1,4)]
+
+ques 4
+
+tree = makeTree(1, makeTree(2, leaf(4), leaf(5)), makeTree(3, leaf(6), leaf(7)))
+
+Descendant(tree, 7) --> [[[7]]]
+Ancestors(tree, 7) --> [1, [2, None, None], [3, None, [7]]]
+
+Descendant(tree, 1) --> [1, [2, [4], [5]], [3, [6], [7]]]
+Ancestors(tree, 1) --> [1]
+
+ques 5
+
+A = [1, 2, 3]
+B = [1, 2, 4]
+
+Intersect(A, B) --> [1, 2]
+equalSet(A, B) --> False
+Difference(A, B) --> [3]
+
+ques 6
+
+table = HashTable(p=3)
+A = [1,2,3,3,3,3]
+table.insert_list(A)
+print(table.table)
+print(table.isIn(4))
+print(table.delete(2))
+print(table.set_item(3,6))
+print(table.table)
+
+[[(3, 4)], [(1, 1)], [(2, 1)]]
+False
+True
+None
+[[(3, 6)], [(1, 1)], []]
+
+table = HashTable(p=5)
+A = [1,2,3,3,3,3]
+table.insert_list(A)
+print(table.table)
+print(table.isIn(4))
+print(table.delete(2))
+print(table.set_item(3,6))
+print(table.table)
+
+[[], [(1, 1)], [(2, 1)], [(3, 4)], []]
+False
+True
+None
+[[], [(1, 1)], [], [(3, 6)], []]
+
+ques 7
+A = [5, 3, 7, 5, 5, 1, 2, 10, 3, 3, 3, 2, 3, 4, 7, 1, 1]
+
+[[(7, 2)], [(1, 3)], [(2, 2)], [(3, 5), (10, 1)], [(4, 1)], [(5, 3)], []]
+
+ques 8
+
+X = [1,2,3]
+Y = [1,2,3]
+print(IntersectHT(X,Y))
+print(DifferenceHT(X, Y))
+print(equalSetHT(X, Y))
+
+[1, 2, 3]
+[]
+True
+
+
+
